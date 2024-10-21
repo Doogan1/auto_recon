@@ -1,0 +1,33 @@
+{
+  "id": "po_1PAYOUT003",
+  "object": "payout",
+  "amount": 130000,
+  "currency": "usd",
+  "status": "paid",
+  "created": "2023-10-18",
+  "arrival_date": "2023-10-20",
+  "description": "Stripe Payout",
+  "balance_transactions": [
+    {
+      "id": "txn_7KLMNOP123",
+      "amount": 60000,
+      "currency": "usd",
+      "description": "Customer payment for Order #ORD004",
+      "status": "available"
+    },
+    {
+      "id": "txn_8QRSTUV456",
+      "amount": 40000,
+      "currency": "usd",
+      "description": "Service fees for User #USER456",
+      "status": "available"
+    },
+    {
+      "id": "txn_9WXYZAB789",
+      "amount": 30000,
+      "currency": "usd",
+      "description": "Refund for Order #ORD002",
+      "status": "available"
+    }
+  ]
+}
